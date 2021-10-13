@@ -1,0 +1,9 @@
+#pulsemixer
+super + p
+	st -e pulsemixer
+super + r
+	st -e ranger
+super + KP_Add
+	pactl set-sink-volume @DEFAULT_SINK@ +1000
+super + KP_Subtract
+	pactl set-sink-volume @DEFAULT_SINK@ -1000
