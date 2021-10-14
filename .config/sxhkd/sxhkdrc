@@ -1,9 +1,12 @@
-#pulsemixer
+#Open pulsemixer audio
 super + p
-	st -e pulsemixer
+	$TERMINAL -e pulsemixer
+#Open ranger file manager
 super + r
-	st -e ranger
+	$TERMINAL -e ranger
+#Volume +1
 super + KP_Add
-	pactl set-sink-volume @DEFAULT_SINK@ +1000
+	pactl set-sink-volume @DEFAULT_SINK@ +655
+#Volume -1
 super + KP_Subtract
-	pactl set-sink-volume @DEFAULT_SINK@ -1000
+	pactl set-sink-volume @DEFAULT_SINK@ -655
