@@ -1,4 +1,4 @@
-feh --bg-center Pictures/wall.jpg
+feh --bg-scale Pictures/wall.jpg
 export TERMINAL="st"
 sxhkd &
 compton -f &
