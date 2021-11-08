@@ -1,5 +1,6 @@
 feh --bg-scale Pictures/wall.jpg
 export TERMINAL="st"
+export EDITOR="vim"
 sxhkd &
 compton -f &
 exec dwm
